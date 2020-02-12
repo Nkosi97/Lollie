@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background: url('./img/buildings-clouds-dawn-dusk-594226.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh -80px);
+
+  
+}
+
+/*************************************************************************
+NAVIGATION BAR
+********************************************************************************/
+nav{
+    background: #1d1e1f;
+    height: 80px;
+    width: 100%;
+
+}
+
+label.logo{
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-weight: 500;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background-color: rgb(216, 14, 108);
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float:right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+#check{
+    display: none;
+
+}
+@media (max-width: 952px){
+    label.logo{
+        font-size: 25px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display:block;
+    }
+   ul{
+       position: fixed;
+       width: 100%;
+       height: 100vh;
+       background: #1d1e1f;
+       top: 80px;
+       left:-100%;
+       text-align: center;
+       transition: all .5s;
+   }
+   nav ul li{
+       display: block;
+       margin: 50px 0;
+       line-height: 30px;
+
+   } 
+   nav ul li a{
+       font-size: 20px;
+
+   }
+a:hover,li.active{
+       background: none;
+       color: rgb(216, 14, 108);
+
+   }
+   #check:checked ~ ul{
+       left: 0;
+
+   }
+   .Name{
+    font-size: 2rem;
+    color: #ffc609;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+   
+     
+}
+.intro{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+}
+/* section{
+    
+} */
+
+.footer 
+{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.609);
+        color: white;
+        text-align: center;
+        padding: 5px;
+        margin-top: 50em;
+    
+      }
+    
+      .image{
+        width: 150px;
+        height: 60px;
+        /*border-radius: 40%;*/
+        /*overflow: hidden;*/
+        margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  /* margin-bottom:100px; */
+    }
+    .social-links a{
+        height:30px;
+        width:30px;
+        background-color: black;
+        border-radius:3px;
+        display: inline-block;
+        border:1px solid rgb(238, 21, 112);
+        line-height: 28px;
+        text-align: center;
+        margin:0 5px;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+    .social-links a:hover{
+        background-color: white;
+    }
+    .social-links a .fa{
+        color: rgb(206, 13, 103);
+        font-size:12px;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+    .social-links a:hover .fa{
+        color:rgb(238, 21, 112);
+    }
+    .rights{
+        font-size: 14px;
+    }
+/*************************
+ABOUT
+**************************/
+
+
+    .About{
+        font-size: 2rem;
+        color: rgb(238, 21, 112);
+        text-align: center;
+        
+         
+    }
+
+    .info{
+        color: #ffffff;
+        text-align: center;
+        /* padding-bottom: 100px; */
+        font-weight: 500;
+        /* padding-top: 10%; */
+        
+    }
+    .avatar {
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        
+      }
+      .para{
+        padding: 50px;
+        padding-left: auto;
+      padding-right: auto;
+      padding-top: 1%;
+      padding-bottom: 15%; 
+      }
+
+      .dp{
+          padding-top: 5%;
+      }
+
+/**************************
+HOME PAGE
+***********************/
+
+/* h1, h2{
+    margin: 0;
+    font-weight: 400;
+} */
+.start{
+    font-size: 5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+   
+     
+}
+.Des{
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+   
+}
+.intro{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.photo{
+    font-size: 40px;
+    color: #ffc609;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+
+/****************
+CONTACT
+*********************/
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+ 
+  .container {
+    border-radius: 5px;
+    background-color: #fdf9f980;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  
+    
+
+  }
+  
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .con{
+      padding-top: 5%;
+      padding-bottom: 15%;
+  }
+
+ 

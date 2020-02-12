@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+<header>
+<nav>
+<input type="checkbox" id="check">
+<label for="check" class="checkbtn">
+    <i class="fa fa-bars"></i>
+</label>
+
+<label class="logo"> <a href="index.html"><img src='./img/lollies.png' class="image"></a>
+</label>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+<section>
+    
+    <main class="con">
+        <h1 class="About">
+            CONTACT
+            </h1>
+    <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">First Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Last Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Category">Category</label>
+            </div>
+            <div class="col-75">
+              <select id="Category" name="Category">
+                <option value="australia">Event</option>
+                <option value="canada">Birthday</option>
+                <option value="usa">Graduation</option>
+                <option value="australia">Matric Ball</option>
+                <option value="australia">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </main>
+</section>
+<div class="footer">
+    <!-- social links -->
+    <div class="social-links">
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+  </div>
+      <p class="rights">Copyright &copy;2020 LOLLiE PHOTOGRAPHY </p>
+      
+    </div>
+</body>
+</html>
